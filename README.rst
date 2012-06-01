@@ -24,3 +24,10 @@ Screenshots
 .. image:: http://i.imgur.com/JrGia.png
 
 .. image:: http://i.imgur.com/Y5WYh.png
+
+Comments/Feedback
+-----------------
+
+Suggestions for any modifications, please feel free to fork and contribute!
+
+Please file bugs at `https://github.com/jonathanchu/color-theme-heroku/issues <https://github.com/jonathanchu/color-theme-heroku/issues>`_.
