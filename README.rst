@@ -22,3 +22,5 @@ Screenshots
 -----------
 
 .. image:: http://i.imgur.com/JrGia.png
+
+.. image:: http://i.imgur.com/Y5WYh.png
