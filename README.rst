@@ -11,11 +11,13 @@ Installation
 2. Load `color-theme-heroku.el`, for example:
 
 ::
+
 	(load-file "~/.emacs.d/vendor/custom-color-themes/color-theme-heroku.el")
 
 3. Call the color theme
 
 ::
+
 	(color-theme-heroku)
 
 Screenshots
