@@ -1,9 +1,15 @@
-;; Author: Jonathan Chu <jonathan.chu@me.com>
+;;; color-theme-heroku.el --- Heroku color theme
 ;;
-;; Based on the aesthetics of Heroku articles such as 
+;; Based on the aesthetics of Heroku articles such as
 ;; http://devcenter.heroku.com/articles/python
 ;;
-;; Installation
+;; Copyright 2013 Jonathan Chu
+;;
+;; Author: Jonathan Chu <jonathan.chu@me.com>
+;; URL: https://github.com/jonathanchu/color-theme-heroku
+;; Version: 1.0.0
+;;
+;; Installation (Emacs 23 and below)
 ;; 1. Install the color-theme package
 ;;   (http://www.emacswiki.org/cgi-bin/wiki/ColorTheme)
 ;; 2. Load this file i.e. (load-file "~/.emacs.d/vendor/custom-color-themes/color-theme-heroku.el")
@@ -23,11 +29,15 @@
      (header-line ((t (:foreground "#f0dfaf" :background "#2b2b2b"))))
      (highlight ((t (:background "#2b2b2b"))))
      (region ((t (:background "#6c91be"))))
-	 
+
      (mode-line ((t (:foreground "#030303" :background "#bdbdbd"
                                  :box (:line-width 1 :color "#000000" :style released-button)))))
+     ;; uncomment and use the following mode-line for use with emacs-powerline
+     ;; (https://github.com/jonathanchu/emacs-powerline.git)
+     ;; (mode-line ((t (:foreground "#030303" :background "#bdbdbd"))))
+
      (minibuffer-prompt ((t (:foreground "#729fcf" :bold t))))
-	 
+
      ;; magit
      (magit-log-sha1 ((t (:foreground "#cf6a4c"))))
      (magit-log-head-label-local ((t (:foreground "#3387cc"))))
@@ -35,7 +45,7 @@
      (magit-branch ((t (:foreground "#fbde2d"))))
      (magit-section-title ((t (:foreground "#adc6ee"))))
      (magit-item-highlight ((t (:background "#6c91be"))))
-     
+
      ;; hl-line-mode
      (hl-line-face ((t (:background "#2b2b2b"))))
 
@@ -48,21 +58,21 @@
      (font-lock-type-face ((t (:foreground"#ffffff"))))
      (font-lock-variable-name-face ((t (:foreground "#fbde2d"))))
      (font-lock-warning-face ((t (:foreground "Red" :bold t))))
-     
+
      ;; show-paren
      (show-paren-match-face ((t (:foreground "#000000" :background "#F0F6FC" :weight bold))))
      (show-paren-mismatch-face ((t (:foreground "#960050" :background "#1E0010" :weight bold))))
-	 
+
      ;; search
      (isearch ((t (:foreground "#a33a37" :background "#f590ae"))))
      (isearch-fail ((t (:foreground "#ffffff" :background "#f590ae"))))
      (lazy-highlight ((t (:foreground "#465457" :background "#000000"))))
-	 
+
      ;; ido mode
      (ido-first-match ((t (:foreground "#fbde2d" :weight bold))))
      (ido-only-match ((t (:foreground "#d8fa3c" :weight bold))))
      (ido-subdir ((t (:foreground "#adc6ee"))))
-	 
+
      ;; org-mode
      (org-agenda-date-today
       ((t (:foreground "white" :slant italic :weight bold))) t)
@@ -89,3 +99,5 @@
      (org-warning ((t (:bold t :foreground "#cc9393"d :weight bold))))
      )))
 (provide 'color-theme-heroku)
+
+;;; color-theme-heroku.el ends here
