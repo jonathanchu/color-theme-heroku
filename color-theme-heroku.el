@@ -8,6 +8,7 @@
 ;; Author: Jonathan Chu <jonathan.chu@me.com>
 ;; URL: https://github.com/jonathanchu/color-theme-heroku
 ;; Version: 1.0.0
+;; Package-Requires: ((color-theme "6.6.1"))
 ;;
 ;; Installation (Emacs 23 and below)
 ;; 1. Install the color-theme package
@@ -15,6 +16,9 @@
 ;; 2. Load this file i.e. (load-file "~/.emacs.d/vendor/custom-color-themes/color-theme-heroku.el")
 ;; 3. (color-theme-heroku)
 
+(require 'color-theme)
+
+;;;###autoload
 (defun color-theme-heroku ()
   (interactive)
   (color-theme-install
