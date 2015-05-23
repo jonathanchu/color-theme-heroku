@@ -1,20 +1,17 @@
 ;;; color-theme-heroku.el --- Heroku color theme
 ;;
+;; Copyright 2012-2015 Jonathan Chu
+;;
+;; Author: Jonathan Chu <me@jonathanchu.is>
+;; URL: https://github.com/jonathanchu/color-theme-heroku
+;; Version: 2.0.0
+;;
+;;; Commentary:
+;;
 ;; Based on the aesthetics of Heroku articles such as
 ;; http://devcenter.heroku.com/articles/python
 ;;
-;; Copyright 2013 Jonathan Chu
-;;
-;; Author: Jonathan Chu <jonathan.chu@me.com>
-;; URL: https://github.com/jonathanchu/color-theme-heroku
-;; Version: 1.0.0
-;; Package-Requires: ((color-theme "6.6.1"))
-;;
-;; Installation (Emacs 23 and below)
-;; 1. Install the color-theme package
-;;   (http://www.emacswiki.org/cgi-bin/wiki/ColorTheme)
-;; 2. Load this file i.e. (load-file "~/.emacs.d/vendor/custom-color-themes/color-theme-heroku.el")
-;; 3. (color-theme-heroku)
+;;; Code:
 
 (require 'color-theme)
 
