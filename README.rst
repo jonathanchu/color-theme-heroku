@@ -1,3 +1,5 @@
+** This is no longer active. Please see https://github.com/jonathanchu/heroku-theme for the updated version **
+
 ==================
 color-theme-heroku
 ==================
@@ -12,13 +14,13 @@ Installation
 
 ::
 
-	(load-file "~/.emacs.d/vendor/custom-color-themes/color-theme-heroku.el")
+        (load-file "~/.emacs.d/vendor/custom-color-themes/color-theme-heroku.el")
 
 3. Call the color theme
 
 ::
 
-	(color-theme-heroku)
+        (color-theme-heroku)
 
 Screenshots
 -----------
