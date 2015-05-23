@@ -1,4 +1,4 @@
-;;; color-theme-heroku.el --- Heroku color theme
+;;; heroku-theme.el --- Heroku color theme
 ;;
 ;; Copyright 2012-2015 Jonathan Chu
 ;;
